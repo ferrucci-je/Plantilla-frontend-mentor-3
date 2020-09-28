@@ -1,0 +1,164 @@
+.calculator {
+  color: #a3a5ae;
+  background-color: white;
+  border-top: #ea5353;
+  border-width: 3px;
+  border-style: solid;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+  border-radius: 5px;
+  margin-top: 7%;
+  padding-left: 7%;
+  padding-bottom: 5%;
+  margin-bottom: 7%;
+  -webkit-box-shadow: 4px 0px 15px 13px #cfcfcf;
+  box-shadow: 4px 0px 15px 13px #cfcfcf;
+}
+
+.calculator h3, .calculator p, .calculator img {
+  background-color: white;
+}
+
+.calculator h3 {
+  color: black;
+}
+
+.calculator img {
+  margin-left: 70%;
+}
+
+.calculator p {
+  font-size: 12px;
+}
+
+header {
+  margin-top: 20%;
+}
+
+header span {
+  color: #a3a5ae;
+  font-size: 18px;
+}
+
+header h1 {
+  color: black;
+  font-size: 20px;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #a3a5ae;
+}
+
+.karma {
+  color: #a3a5ae;
+  background-color: white;
+  border-top: #fcaf4a;
+  border-width: 3px;
+  border-style: solid;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+  border-radius: 5px;
+  margin-top: 7%;
+  padding-left: 7%;
+  padding-bottom: 5%;
+  -webkit-box-shadow: 4px 0px 15px 13px #cfcfcf;
+  box-shadow: 4px 0px 15px 13px #cfcfcf;
+}
+
+.karma h3, .karma p, .karma img {
+  background-color: white;
+}
+
+.karma h3 {
+  color: black;
+}
+
+.karma img {
+  margin-left: 70%;
+}
+
+.karma p {
+  font-size: 12px;
+}
+
+.supervisor {
+  color: #a3a5ae;
+  background-color: white;
+  border-top: #45d3d3;
+  border-width: 3px;
+  border-style: solid;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+  border-radius: 5px;
+  margin-top: 15%;
+  padding-left: 7%;
+  padding-bottom: 5%;
+  -webkit-box-shadow: 4px 0px 15px 13px #cfcfcf;
+  box-shadow: 4px 0px 15px 13px #cfcfcf;
+}
+
+.supervisor h3, .supervisor p, .supervisor img {
+  background-color: white;
+}
+
+.supervisor h3 {
+  color: black;
+}
+
+.supervisor img {
+  margin-left: 70%;
+}
+
+.supervisor p {
+  font-size: 12px;
+}
+
+.team-builder {
+  color: #a3a5ae;
+  background-color: white;
+  border-top: #ea5353;
+  border-width: 3px;
+  border-style: solid;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+  border-radius: 5px;
+  margin-top: 7%;
+  padding-left: 7%;
+  padding-bottom: 5%;
+  -webkit-box-shadow: 4px 0px 15px 13px #cfcfcf;
+  box-shadow: 4px 0px 15px 13px #cfcfcf;
+}
+
+.team-builder h3, .team-builder p, .team-builder img {
+  background-color: white;
+}
+
+.team-builder h3 {
+  color: black;
+}
+
+.team-builder img {
+  margin-left: 70%;
+}
+
+.team-builder p {
+  font-size: 12px;
+}
+
+* {
+  border: 0;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */

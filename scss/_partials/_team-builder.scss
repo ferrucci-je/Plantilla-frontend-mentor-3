@@ -1,0 +1,30 @@
+@import './colors';
+.team-builder {
+    color: $color-grayishblue;
+    background-color: white;
+    border-top: $color-red;
+    border-width: 3px;
+    border-style: solid;
+    border-left: white;
+    border-right: white;
+    border-bottom: white;
+    border-radius: 5px;
+    margin-top: 7%;
+    padding-left: 7%;
+    padding-bottom: 5%;
+    -webkit-box-shadow: 4px 0px 15px 13px rgba(207,207,207,1);
+    -moz-box-shadow: 4px 0px 15px 13px rgba(207,207,207,1);
+    box-shadow: 4px 0px 15px 13px rgba(207,207,207,1);
+    h3, p, img {
+        background-color: white;
+    }
+    h3 {
+        color: black;
+    }
+    img {
+        margin-left: 70%;
+    }
+    p {
+        font-size: 12px;
+    }
+}

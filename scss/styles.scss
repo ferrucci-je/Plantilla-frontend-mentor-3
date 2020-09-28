@@ -1,0 +1,11 @@
+@import  './_partials/calculator', './_partials/header', './_partials/karma', './_partials/supervisor', './_partials/team-builder', './_partials/colors';
+
+* {
+    border: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $color-lightgray;
+    font-family: 'Poppins', sans-serif;
+}

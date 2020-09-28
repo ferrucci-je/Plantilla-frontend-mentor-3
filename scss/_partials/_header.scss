@@ -1,0 +1,17 @@
+@import './colors';
+header {
+    margin-top: 20%;
+    span {
+        color: $color-grayishblue;
+        font-size: 18px;
+    }
+    h1 {
+        color: black;
+        font-size: 20px;
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 12px;
+        color: $color-grayishblue;
+    }
+}
