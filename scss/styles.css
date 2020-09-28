@@ -1,7 +1,7 @@
 .calculator {
   color: #a3a5ae;
   background-color: white;
-  border-top: #ea5353;
+  border-top: #549ef2;
   border-width: 3px;
   border-style: solid;
   border-left: white;
@@ -149,6 +149,60 @@ header h2 {
 
 .team-builder p {
   font-size: 12px;
+}
+
+@media screen and (min-width: 760px) {
+  .boxes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2px 1px;
+        grid-template-areas: ". team-builder ." "supervisor team-builder calculator" "supervisor karma calculator" ". karma .";
+  }
+  .supervisor {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    grid-area: supervisor;
+  }
+  .supervisor img {
+    margin-left: 60%;
+  }
+  .team-builder {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: team-builder;
+  }
+  .team-builder img {
+    margin-left: 60%;
+  }
+  .karma {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: karma;
+  }
+  .karma img {
+    margin-left: 60%;
+  }
+  .calculator {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 3;
+    grid-area: calculator;
+  }
+  .calculator img {
+    margin-left: 60%;
+  }
+}
+
+header {
+  margin-top: 5%;
+  text-align: center;
 }
 
 * {

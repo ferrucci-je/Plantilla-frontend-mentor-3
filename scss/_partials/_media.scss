@@ -1,0 +1,39 @@
+@media screen and (min-width: 760px) {
+  .boxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 2px 1px;
+  grid-template-areas:
+    ". team-builder ."
+    "supervisor team-builder calculator"
+    "supervisor karma calculator"
+    ". karma .";
+}
+.supervisor {
+   grid-area: supervisor;
+  img {
+    margin-left: 60%;
+  }
+  }
+.team-builder { grid-area: team-builder;
+  img {
+    margin-left: 60%;
+  }
+ }
+.karma { grid-area: karma;
+  img {
+    margin-left: 60%;
+  }
+}
+.calculator { grid-area: calculator;
+img {
+  margin-left: 60%;
+}
+}
+}
+
+header {
+  margin-top: 5%;
+  text-align: center;
+}
