@@ -170,6 +170,7 @@ header h2 {
   }
   .supervisor img {
     margin-left: 60%;
+    padding-top: 10%;
   }
   .team-builder {
     -ms-grid-row: 1;
@@ -179,6 +180,7 @@ header h2 {
   }
   .team-builder img {
     margin-left: 60%;
+    padding-top: 10%;
   }
   .karma {
     -ms-grid-row: 3;
@@ -188,6 +190,7 @@ header h2 {
   }
   .karma img {
     margin-left: 60%;
+    padding-top: 10%;
   }
   .calculator {
     -ms-grid-row: 2;
@@ -197,6 +200,7 @@ header h2 {
   }
   .calculator img {
     margin-left: 60%;
+    padding-top: 10%;
   }
 }
 
